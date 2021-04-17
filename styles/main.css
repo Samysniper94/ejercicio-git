@@ -158,6 +158,9 @@ nav.menu ul {
     height: 300px;
 }
 
+.card img{
+  width: 100%;
+}
 .place-image.peru {
     background-image: url(../images/peru.jpg);
 }
@@ -210,7 +213,7 @@ nav.menu ul {
     text-align: left;
 }
 
-form {
+/* form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -260,7 +263,7 @@ select {
     width: 100%;
     height: 43px;
     border: 1px solid black;
-}
+} */
 
 button {
     background: lightgrey;
