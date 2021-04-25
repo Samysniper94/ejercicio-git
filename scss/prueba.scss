@@ -11,12 +11,12 @@
     margin: 0;
 }
 
-.nav__ul__li{
-    color: #fff;
+.nav__ul__li a{
+    color:blue !important;
     font-size: 14px;
 }
 
-.nav__ul__li--active{
+.nav__ul__li--active a{
     @extend .nav__ul__li;
-    color: green;
+    color: green !important;
 }
