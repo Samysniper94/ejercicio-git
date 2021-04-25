@@ -9,8 +9,8 @@
   margin: 0; }
 
 .nav__ul__li a, .nav__ul__li--active a a {
-  color: blue !important;
+  color: #002db3 !important;
   font-size: 14px; }
 
 .nav__ul__li--active a {
-  color: green !important; }
+  color: #47d147 !important; }

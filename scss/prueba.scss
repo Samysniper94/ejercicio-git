@@ -1,3 +1,7 @@
+$green: #47d147;
+$blue: #002db3;
+$font-size: 28px;
+
 .header{
     background-color: black;
 }
@@ -12,11 +16,11 @@
 }
 
 .nav__ul__li a{
-    color:blue !important;
-    font-size: 14px;
+    color:$blue !important;
+    font-size: $font-size/2;
 }
 
 .nav__ul__li--active a{
     @extend .nav__ul__li;
-    color: green !important;
+    color: $green !important;
 }
